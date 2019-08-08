@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8827eca505744f7fb4d21cc944ce431e" Name="Diagram1">
+        <EntityTypeShape EntityType="controlequiposModel.caracteristicas" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.dominios" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.equipos" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.marcas" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.perifericos" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.personas" Width="1.5" PointX="3.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.salas" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.software" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.solicitudes" Width="1.5" PointX="6" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.equipos_caract" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.equipos_software" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="controlequiposModel.solicitud_equipo" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="controlequiposModel.FK__equipos_c__id_ca__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__equipos__id_marc__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__equipos__id_sala__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__equipos_c__seria__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__equipos_s__seria__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__periferic__seria__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__solicitud__seria__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__solicitud__id_pe__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__solicitud__id_pe__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__equipos_s__id_so__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="controlequiposModel.FK__solicitud__nro_s__66603565" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
